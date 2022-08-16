@@ -1,7 +1,7 @@
 public class herencia {
     public static void main(String[] args) {
         Moto moto = new Moto();
-        moto.setSonido("Brrr moto");
+        moto.setSonido("Brrr");
         System.out.println(moto.getSonido());
         
 
@@ -45,3 +45,4 @@ class Moto extends Vehiculo{
         this.sonido = sonido;
     }
 }
+
