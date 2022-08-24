@@ -1,0 +1,8 @@
+import time
+hora = time.strftime('%Y-%m-%d %H:%M:%S', time.localtime())
+hour  = int(hora.split(' ')[1].split(':')[0])
+tiempoFaltante  = 19 - hour
+if hour > 19:
+    print('es hora de ir a casa')
+else:
+    print(f'Te falta {tiempoFaltante} horas para poder ir a casa')
