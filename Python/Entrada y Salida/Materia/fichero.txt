@@ -1,0 +1,4 @@
+Este es un ejemplo de un texto 
+en un fichero para la toma de la
+clase de ficheros de python en
+openBootCamp
