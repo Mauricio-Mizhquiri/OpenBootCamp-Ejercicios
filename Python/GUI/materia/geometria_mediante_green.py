@@ -2,10 +2,12 @@ from cgitb import text
 import tkinter
 from tkinter import ttk
 windows = tkinter.Tk()
+import sys
 
 #Configurando las columnas
 windows.columnconfigure(0, weight=1)
 windows.columnconfigure(1, weight=3)
+
 
 #Usuario
 #etiqueta usuario
@@ -29,8 +31,11 @@ password_entry.grid(column=1, row = 1,sticky=tkinter.E, padx=5,pady=5)
 login_button = ttk.Button(windows, text = 'Loggin')
 login_button.grid(column=1,row=3,sticky=tkinter.E, padx=5, pady= 5)
 
-
-
 windows.mainloop()
+sys.exit(0)
+
+
+
+
 
 
