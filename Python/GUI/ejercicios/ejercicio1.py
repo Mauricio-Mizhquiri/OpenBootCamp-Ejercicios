@@ -1,5 +1,4 @@
 
-from select import select
 from tkinter import ttk
 import tkinter as tk
 
