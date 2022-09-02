@@ -1,0 +1,12 @@
+CREATE TABLE users(
+    id INTEGER PRIMARY KEY,
+    username TEXT NOT NULL,
+    password TEXT NOT NULL
+);
+
+INSERT INTO users VALUES(1, 'mauricio', 'clave1')
+INSERT INTO users VALUES(2, 'rolando', 'clave2')
+
+SELECT *FROM users;
+
+
